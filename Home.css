@@ -1,0 +1,384 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #3e3e3f !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+main {
+  background: #3e3e3f;
+}
+
+footer {
+  background: #3e3e3f;
+}
+
+
+a:hover {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+main {
+  background: #3e3e3f;
+}
+
+footer {
+  background: black;
+}
+
+.Head {
+  height: 60px;
+  width: 100%;
+
+  background: rgb(9, 0, 0);
+  position: relative;
+}
+
+.logo01 img {
+  width: 60% !important;
+  margin: 10px 10px 10px 0px;
+  padding-right: 5px;
+  border-right: 1px solid rgb(103, 97, 97);
+}
+
+.logo01 {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translate(-3%, -50%);
+}
+
+.logo02 img {
+  width: 30px;
+}
+
+.logo02 {
+  position: absolute;
+  left: 140px;
+  top: 10px;
+}
+
+
+.Menu ul li {
+  display: inline-block;
+  padding: 3% 30px;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Menu ul :hover {
+  background: #3e3e3f;
+}
+
+.Menu {
+  width: 700px;
+  margin: 0px auto;
+}
+
+.Menu a {
+  color: white;
+  font-size: 15px;
+}
+
+.Camket {
+  background: #323232;
+  width: 100%;
+  margin-top: 0.05%;
+}
+
+.camket {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.camket ul li {
+  display: inline-block;
+  padding: 20px 20px 20px 0px;
+  color: #FFF !important;
+  font-size: 19px;
+}
+
+.camket ul li p {
+  color: #FFF !important;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .iPhone02 {
+    margin-bottom: 50px;
+  }
+}
+
+.search {
+  position: absolute;
+  top: 15px;
+  right: 150px;
+  width: 30px;
+  height: 30px;
+  background: #3e3e3f;
+  border-radius: 100rem;
+}
+
+.search i {
+  color: white;
+  padding-left: 7px;
+  padding-top: 8px;
+}
+
+.cart {
+  position: absolute;
+  top: 15px;
+  right: 100px;
+  width: 30px;
+  height: 30px;
+  background: #3e3e3f;
+  border-radius: 100rem;
+}
+
+.cart i {
+  color: white;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
+.Login {
+  position: absolute;
+  top: 15px;
+  right: 50px;
+  width: 30px;
+  height: 30px;
+  background: #3e3e3f;
+  border-radius: 100rem;
+}
+
+.Login i {
+  color: white;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
+.search:hover {
+  background: #7d7d7e;
+  cursor: pointer;
+}
+
+.cart:hover {
+  background: #7d7d7e;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #34495e;
+}
+
+.slidershow {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+
+  position: relative;
+}
+
+
+
+.navigation {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.bar {
+  width: 10px;
+  height: 10px;
+  border-radius: 100rem;
+  border: 1px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.bar:hover {
+  background: #fff;
+}
+
+input[name="r"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide {
+  width: 20%;
+  transition: 0.6s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked~.s1 {
+  margin-left: 0;
+}
+
+#r2:checked~.s1 {
+  margin-left: -20%;
+}
+
+#r3:checked~.s1 {
+  margin-left: -40%;
+}
+
+#r4:checked~.s1 {
+  margin-left: -60%;
+}
+
+#r5:checked~.s1 {
+  margin-left: -80%;
+}
+
+
+
+
+
+
+.iPhone01 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  color: white;
+}
+
+.iPhone02 {
+  width: 105%;
+  padding: 10% 0% 10% 0%;
+  border-radius: 20px;
+  background: #323232;
+  text-align: center;
+}
+
+.iPhone02 img {
+  width: 100%;
+  height: 100%;
+}
+
+.Name {
+  font-size: small;
+  margin-top: 10%;
+  color: rgb(240, 237, 237);
+  margin-bottom: 7%;
+}
+
+
+.Price {
+  font-size: large;
+  color: rgb(255, 252, 252);
+  font-weight: bold;
+}
+
+.New {
+  font-size: small;
+  color: rgb(165, 165, 165);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.Diachi {
+  background: #1c1c1c;
+  margin-top: 3%;
+  border-radius: 40px;
+  padding: 3% 3% 5% 3%;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+}
+
+
+
+.container_last p {
+  font-size: 15px;
+  color: rgb(239, 239, 239);
+}
+
+.container_last {
+  border-top: 1px solid white;
+  padding-top: 50px;
+
+}
+
+.Footer {
+  background: rgb(0, 0, 0);
+  display: inline-block;
+
+}
+
+.Footer .logo03 img {
+  display: inline-block;
+}
+
+.Footer img {
+  margin-left: 1%;
+}
+
+.logo03 {
+  width: 10%;
+  margin-top: 0.1%;
+  padding-right: 5px;
+  border-right: 1px solid rgb(103, 97, 97);
+}
+
+.logo04 {
+  width: 2%;
+  margin-top: 0.6%;
+}
+
+.chu-footer p {
+  font-size: 13px;
+}
+
+.chu-footer span {
+  font-size: large;
+}
+
+.hehe {
+  border-bottom: 1px solid rgb(105, 105, 105);
+}
+
+.chunho {
+  color: #6f6f6f;
+  font-size: small;
+  margin-top: 1%;
+}
+
+/* -----------Amthanh--------- */
+.iPhone03 {
+  width: 105%;
+  padding: 10% 8% 10% 8%;
+  border-radius: 20px;
+  background: #323232;
+  text-align: center;
+  margin: 2% 0% 2% 0%;
+}
+
+.iPhone03 img {
+  width: 80%;
+  height: 100%;
+}

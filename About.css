@@ -1,0 +1,334 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #3e3e3f !important;
+}
+
+.container-fluid {
+    margin-top: 50px;
+    display: flex;
+    height: 500px;
+}
+
+.img_big {
+    width: 60%;
+    margin-right: 20px;
+    height: 100%;
+    cursor: pointer;
+
+}
+
+.img_big img {
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: all 500ms ease-in-out;
+}
+
+.title1 p {
+    border-bottom-left-radius: 20px;
+
+}
+
+.title2 p {
+    border-bottom-right-radius: 20px;
+
+}
+
+.img_big .demo:hover img {
+    transform: scale(1.5);
+}
+
+.img .demo1:hover img {
+    transform: scale(1.5);
+}
+
+.img .demo2:hover img {
+    transform: scale(1.5);
+}
+
+.demo {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.demo1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border-top-right-radius: 20px;
+}
+
+.demo2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border-bottom-right-radius: 20px;
+}
+
+.demo p {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-100%);
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 2.68%, rgba(0, 0, 0, .72) 53.2%, rgba(0, 0, 0, .86) 69.35%, #000 86.01%);
+}
+
+.demo1 p {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-100%);
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 2.68%, rgba(0, 0, 0, .72) 53.2%, rgba(0, 0, 0, .86) 69.35%, #000 86.01%);
+}
+
+.demo2 p {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-100%);
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 2.68%, rgba(0, 0, 0, .72) 53.2%, rgba(0, 0, 0, .86) 69.35%, #000 86.01%);
+}
+
+.img {
+    width: 40%;
+    height: 100%;
+}
+
+.img1 .demo:hover img {
+    transform: scale(1.5);
+}
+
+.img2 .demo:hover img {
+    transform: scale(1.5);
+}
+
+.img1 {
+    width: 100%;
+    height: 48.25%;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.img1 img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    transition: all 500ms ease-in-out;
+
+}
+
+.img2 {
+    width: 100%;
+    height: 48.25%;
+    cursor: pointer;
+}
+
+.img2 img {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 20px;
+    transition: all 500ms ease-in-out;
+}
+
+.menu {
+    display: block;
+    width: 90%;
+    border-radius: 24px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.menu ul {
+    display: flex;
+    width: 100%;
+    margin: 5px 0 40px 0;
+    list-style: none;
+}
+
+.menu ul li {
+    cursor: pointer;
+    width: 180px;
+    height: 60px;
+    background: #323232;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-right: 15px;
+    padding: 8px 21px;
+    margin: 0 auto;
+}
+
+.menu ul li p {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    float: right !important;
+    font-size: 15px;
+    line-height: 45px;
+    color: #fff;
+
+}
+
+.menu ul li p img {
+    width: 50px;
+}
+
+.news {
+    margin-top: 50px;
+
+}
+
+.news h2 {
+    color: white;
+    margin-left: 50px;
+}
+
+.information {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    width: 90%;
+
+}
+
+.ava {
+    width: 300px;
+    height: 170px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.ava img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.information p {
+    color: rgb(173, 173, 173);
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 20px;
+    width: 400px;
+}
+
+.information p:hover {
+    color: rgb(255, 255, 255);
+}
+
+hr {
+    margin-left: 50px;
+    margin-right: 400px;
+    background: rgb(112, 110, 110);
+}
+
+.time {
+    position: absolute;
+    top: 100px;
+    left: 370px;
+    color: gray;
+    font-size: 15px;
+}
+
+.Video {
+    background: black;
+    display: flex;
+    width: 100%;
+    height: 750px;
+}
+
+.Video h2 {
+    padding-top: 50px;
+}
+
+.video {
+    margin-left: 50px;
+    width: 90%;
+    height: 550px;
+}
+
+.video video {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.cachlam {
+    margin-top: 150px;
+    width: 50%;
+    height: 550px;
+}
+
+.lydo {
+    width: 100%;
+    background: rgb(217, 214, 214);
+    height: 580px;
+}
+
+.lydo h3 {
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+.ld1 {
+    width: 30%;
+
+    margin: 15px;
+    padding: 10px;
+}
+
+.baohanh {
+    background: white;
+    width: 100%;
+    height: 300px;
+}
+
+.baohanh h2 {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: black;
+    text-align: center;
+}
+
+.container1 {
+    width: 95%;
+    margin: 0px auto;
+
+}
+
+.container1 row {
+    width: 90%;
+}
+
+.dv1 {
+    text-align: center;
+
+    width: 90px;
+    margin: 0px 70px;
+}
